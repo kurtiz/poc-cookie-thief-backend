@@ -16,7 +16,7 @@ const saveData = async (req, res) => {
 
 const getData = async (req, res) => {
     try {
-        const {spec} = req.body;
+        const spec = req.headers["spec"];
 
         if (spec !== process.env.SPEC) {
             return res.status(401).json({success: false});
