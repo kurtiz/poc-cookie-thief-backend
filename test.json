@@ -1,0 +1,88 @@
+{
+  "activeAccessLevel": {
+    "id": 0,
+    "name": "",
+    "description": ""
+  },
+  "assigned_employees": [],
+  "accessLevelEditState": false,
+  "accessLevelSet": true,
+  "permissions": {
+    "employee_personal_information": {
+      "work_info": {
+        "view_employee_status": true,
+        "view_job_information": true,
+        "view_salary_information": true
+      },
+      "edit_profile": {
+        "work_information": {
+          "view_id": true,
+          "view_hire_date": true,
+          "view_payroll_id": true,
+          "view_client_readiness": true,
+          "view_primary_specialization": true,
+          "view_secondary_specialization": true
+        },
+        "personal_information": {
+          "manage_personal_information": true
+        }
+      },
+      "employee_loan": {
+        "view_loans": true,
+        "manage_loans": true
+      },
+      "personal_info": {
+        "view_skills": true,
+        "manage_skills": true,
+        "view_education": true,
+        "manage_eduction": true,
+        "view_bank_details": true,
+        "manage_bank_details": true,
+        "view_identification": true,
+        "manage_identification": true,
+        "view_emergency_contact": true,
+        "manage_emergency_contact": true,
+        "view_relation_and_next_of_kin": true,
+        "manage_relation_and_next_of_kin": true
+      },
+      "employee_project": {
+        "view_project": true
+      },
+      "bonus_and_benefit": {
+        "view_tier": true,
+        "view_bonus": true,
+        "view_benefit": true
+      },
+      "employee_performance": {
+        "view_appraisal": true,
+        "view_pip_stepper": true,
+        "view_manager_comment": true,
+        "view_peer_assessment": true,
+        "view_assessment_report": true,
+        "view_employee_evaluation": true,
+        "view_upcoming_assessment": true
+      }
+    },
+    "other_employee_personal_information": {
+      "edit_profile": {
+        "personal_information": {
+          "manage_personal_information": true
+        }
+      },
+      "employee_performance": {
+        "view_cdc_plan": true,
+        "view_appraisal": true,
+        "view_pip_stepper": true,
+        "view_cdc_decision": true,
+        "view_peer_assessment": true,
+        "view_assessment_report": true,
+        "view_direct_assessment": true,
+        "view_manager_evaluation": true,
+        "view_employee_evaluation": true,
+        "view_upcoming_assessment": true,
+        "manage_employee_evaluation": true,
+        "manage_upcoming_assessment": true
+      }
+    }
+  }
+}
