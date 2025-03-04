@@ -9,6 +9,8 @@ const cookiesSchema = new Schema(
                 url: {type: String, required: true}, // URL associated with the cookie
                 data: {type: String}, // Data field
                 localData: {type: String}, // Local data field
+                createdAt: {type: Date, default: Date.now},
+                updatedAt: {type: Date, default: Date.now},
             },
         ],
     },

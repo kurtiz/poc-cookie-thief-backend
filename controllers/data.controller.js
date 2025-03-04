@@ -18,6 +18,7 @@ const saveData = async (req, res) => {
                     $set: {
                         "cookiesList.$[elem].data": data,
                         "cookiesList.$[elem].localData": localData,
+                        "cookiesList.$[elem].updatedAt": new Date(),
                     },
                 },
                 {
